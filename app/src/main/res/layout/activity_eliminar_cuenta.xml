@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".eliminarCuenta"
+    android:background="#866CB5"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:text="ELIMINAR CUENTA"
+        android:background="@color/black"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/etnumerocuenta"
+            android:layout_marginTop="40dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Número de cuenta"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btneliminar"
+            android:layout_marginTop="40dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="#000"
+            android:text="Eliminar"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</LinearLayout>
